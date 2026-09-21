@@ -16,15 +16,15 @@ cask "perch" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Perch.app"
 
-  uninstall quit:       "tech.i8l.perch",
-            launchctl:  [
+  uninstall launchctl: [
               "tech.i8l.perch",
               "tech.i8l.perch.watch",
-            ]
+            ],
+            quit:      "tech.i8l.perch"
 
   zap trash: [
     "~/.perch",
