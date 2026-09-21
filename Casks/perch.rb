@@ -2,8 +2,7 @@ cask "perch" do
   version "1.2.19,26"
   sha256 "4bb67025630adf7db1215ee70e5e88de78ff5560698e85885a1a2512c5e35d28"
 
-  url "https://perch.i8l.tech/downloads/Perch-#{version.csv.first}-#{version.csv.second}.dmg",
-      verified: "perch.i8l.tech/downloads/"
+  url "https://perch.i8l.tech/downloads/Perch-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Perch"
   desc "Coding agent status in the notch"
   homepage "https://perch.i8l.tech/"
