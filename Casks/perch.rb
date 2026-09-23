@@ -1,6 +1,6 @@
 cask "perch" do
-  version "1.3.9,36"
-  sha256 "40da1df6532df0bc4473ed853635c4f0311a16884ebf73161722d3ec06c1fcef"
+  version "1.4,37"
+  sha256 "f67f78fd57530248cbdb1464f13414584d611aafbff77259cedb0473a4af579e"
 
   url "https://perch.i8l.tech/downloads/Perch-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Perch"
