@@ -1,6 +1,6 @@
 cask "acceler8" do
-  version "1.1,3"
-  sha256 "6943fd3c75b22f5d39b23b9a53988e121d68f7043e74a76a7bae7a3fbef19596"
+  version "1.2,4"
+  sha256 "34a9d29a2ecb5b2624e34425975f3a8043f0bdc3a301a0f8ebfdf7590a84e28f"
 
   url "https://acceler8.i8l.tech/downloads/acceler8-#{version.csv.first}-#{version.csv.second}.dmg"
   name "acceler8"
