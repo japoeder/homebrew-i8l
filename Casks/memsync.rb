@@ -1,6 +1,6 @@
 cask "memsync" do
-  version "1.4.0,1"
-  sha256 "4a1cd03ee715d1362f361876db5f074ba13d1052ae92f43c53e79348fb746d45"
+  version "1.4.0,2"
+  sha256 "933fa76c2e60f7a67fa92f2cb25654f5faab496cd3c975f5cac3bf5dc6c84909"
 
   url "https://mem.i8l.tech/downloads/MemSync-#{version.csv.first}-#{version.csv.second}.dmg"
   name "MemSync"
